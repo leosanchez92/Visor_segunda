@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css' rel='stylesheet' /> 
+    <link rel="stylesheet" type="text/css" href="elecciones.css">  
+    <title>Elecciones Presidenciales Segunda Vuelta</title>
+</head>
+
+<body>
+   
+    <div id='map'></div>
+    <div id="top">
+        <div class="encabezado">
+            <h2 class="titulo">
+                <b>ELECCIONES PRESIDENCIALES 2021 | SEGUNDA VUELTA</b>
+            </h2>
+            <span id="chile">
+                <img src="img/chileflag.png" alt="" width="40" height="36" />
+
+            </span>
+        </div>
+    </div>
+    <div id="tabla">
+        <center><font size="2">Resultados país (99,99% mesas escrutadas)</font></center>
+        <hr>
+        <table style="border-collapse:collapse">
+            <tbody>
+                <tr>
+                    <td style="font-weight:bold">Candidato</td>
+                    <td style="text-align:right;font-weight: bold">Votos</td>
+                    <td style="text-align:right;font-weight: bold">%</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="circulo" style="background-color: #d06918"></span>
+                        <b>1. GABRIEL BORIC FONT</b>
+                    </td>
+                    <td style="text-align:right;padding-left:25px">4.596.019</td>
+                    <td style="text-align: right; padding-left: 25px">55,81%</td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="circulo" style="background-color: #398ab2 "></span>
+                        <b>2. JOSE ANTONIO KAST RIST</b>
+                    </td>
+                    <td style="text-align:right;padding-left:25px">3.639.591</td>
+                    <td style="text-align: right; padding-left: 25px">44,19%</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+
+        <table style="margin:0 auto;border-collapse:collapse">
+
+            <tbody style="font-size:80%">
+                <tr>
+                    <td></td>
+                    <td style="text-align:center">Votos</td>
+                    <td style="text-align:center">%</td>
+                </tr>
+                <tr>
+                    <td><b>Válidos:</b></td>
+                    <td style="text-align:right;padding-left:30px">8.235.610</td>
+                    <td style="text-align:right;padding-left:30px">98,87%</td>
+                </tr>
+                <tr>
+                    <td><b>Nulos:</b></td>
+                    <td style="text-align:right;padding-left:30px">69.987</td>
+                    <td style="text-align:right;padding-left:30px">0,84%</td>
+                </tr>
+                <tr>
+                    <td><b>Blancos:</b></td>
+                    <td style="text-align:right;padding-left:30px">23.788</td>
+                    <td style="text-align:right;padding-left:30px">00,29%</td>
+                </tr>
+                <tr>
+                    <td><b>Votación total:</b></td>
+                    <td style="text-align:right;padding-left:30px">8.329.385</td>
+                    <td style="text-align:right;padding-left:30px">100%</td>
+                </tr>
+                
+            </tbody>
+            
+
+
+
+        </table>
+        <hr>
+        <center>Participación: 55,62% del padrón electoral</center>
+        <hr>
+        <font size="1">Elaboración: <b>N. Leonardo Sánchez (Geógrafo)</b> - Fuente: SERVEL</font>
+    </div>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+    <script type="text/javascript" src="elecciones.js"></script>
+
+
+</body>
+</html>

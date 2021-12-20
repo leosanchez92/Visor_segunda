@@ -1,0 +1,105 @@
+﻿body {
+    margin: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-family: Calibri, arial, verdana;
+    background: #b0b3ba;
+}
+
+#map {
+    width: 100%;
+    position: absolute;
+    top: 44px;
+    bottom: 0px;
+    overflow: hidden;
+}
+
+#tabla {
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    opacity: 1;
+    border-radius: 5px;
+    background-color: #2a2a2a;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    font-size: 0.85em;
+    color: white;
+}
+
+.circulo {
+    display: inline-block;
+    border-radius: 50%;
+    border-width: 10px;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px; 
+}
+
+.encabezado {
+    background: linear-gradient(to right, #2e2e2e, #797979);
+    height: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-bottom: 2px solid #c5c5c5;
+    border-top: 2px solid #c5c5c5;
+    text-indent: 20px;
+}
+
+.titulo {
+    color: white;
+    -moz-text-stroke-width: 0.1px;
+    -webkit-text-stroke-width: 0.1px;
+    -moz-text-stroke-color: #ffffff;
+    -webkit-text-stroke-color: #ffffff;
+    font-size: 25px;
+}
+
+#chile {
+    z-index: 3;
+    justify-content: right;
+    opacity: 0.6;
+    position: relative;
+    top: 1.5px;
+}
+
+.mapboxgl-popup {
+    max-width: 800px;
+    font: 12px/20px 'Calibri', Arial, Verdana;
+    max-height: 800px;
+}
+
+.mapboxgl-popup-content {
+    background-color: #2e2e2e;
+    opacity: .8;
+    max-width: 800px;
+    max-height: 800px;
+}
+
+.mapboxgl-popup-content table {
+        font-weight: 300;
+        margin-top: 1em;
+        margin-bottom: 0em;
+        color: white;
+    }
+
+    .mapboxgl-popup-content h5 {
+        font-weight: 300;
+        border-width: 2px;
+        border-radius: 2px 2px;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, .5);
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        font-size: 1em;
+        color: white;
+    }
+
+}
