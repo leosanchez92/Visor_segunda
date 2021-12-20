@@ -128,7 +128,7 @@ map.on('click', 'comunas-data', (e) => {
             '<tr><td style="font-weight:bold">Candidato</td><td style="text-align:right;font-weight:bold">Votos</td><td style="text-align:right;font-weight:bold">%</td></tr>' +
             '<tr style="font-weight:normal"><td><span class="legend-key"></span>GABRIEL BORIC FONT</td><td style="text-align:right;padding-left:25px">' + e.features[0].properties._Boric + '</td><td style="text-align:right;padding-left:25px">' + e.features[0].properties.P_Boric + '%</td></tr>' +
             '<tr style="font-weight:normal"><td><span class="legend-key"></span>JOSE ANTONIO KAST RIST</td><td style="text-align:right;padding-left:25px">' + e.features[0].properties._Kast + '</td><td style="text-align:right;padding-left:25px">' + e.features[0].properties.P_Kast + '%</td></tr>' +
-            '<tr style="font-weight:normal"><td><span class="legend-key"></span><center>Total Válidos:</center></td><td style="text-align:center;padding-left:25px">' + e.features[0].properties._Validos + '</td>' + '</td><td style="text-align:right;padding-left:25px">' + e.features[0].properties.P_Kast + '%</td></tr>' +
+            '<tr style="font-weight:normal"><td><span class="legend-key"></span><center>Total Válidos:</center></td><td style="text-align:center;padding-left:25px">' + e.features[0].properties._Validos + '</td>' + '</td><td style="text-align:right;padding-left:25px">' + e.features[0].properties.P_Validos + '%</td></tr>' +
             '</table><hr>'+
             '<table style="border-collapse:collapse">' +
             '<tr><td style="font-weight:bold"></td><td style="text-align:right;font-weight:bold">Votos</td><td style="text-align:right;font-weight:bold">%</td></tr>' +
